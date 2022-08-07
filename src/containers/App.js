@@ -3,11 +3,11 @@ import Header from '../components/Header/Header'
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <Header />
-    </div>
-  );
+	return (
+		<div className="App">
+			<Header url={'https://reactjs.org'} title={'Learn React'} />
+		</div>
+	);
 }
 
 export default App;
