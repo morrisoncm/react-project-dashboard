@@ -1,0 +1,17 @@
+import React from 'react';
+import './Header.css'
+import logo from '../../logo.svg';
+
+const Header = () => (
+	<header className='App-header'>
+		<img src={logo} className='App-logo' alt='logo' />
+		<p>
+			Edit <code>src/containers/App.js</code> and save to reload.
+		</p>
+		<a href='https://reactjs.org' className='App-link' target='_blank' rel='noopener noreferrer'>
+			'Learn React'
+		</a>
+	</header>
+);
+
+export default Header;
